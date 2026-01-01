@@ -40,6 +40,8 @@ namespace StudentCRUD
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.MapControllerRoute(
